@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employeedt" android:background="@drawable/adbg">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="23dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/chn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/tvph2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chn"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <ImageView
+        android:id="@+id/ivb"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/ic_back" />
+
+    <Button
+        android:id="@+id/btsal"
+        android:layout_width="194dp"
+        android:layout_height="82dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/norm"
+        android:text="Salary"
+        android:textColor="@color/cbg"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_sal"
+        app:iconTint="@color/cbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/btcal"
+        android:layout_width="385dp"
+        android:layout_height="93dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/norm"
+        android:text="Previous Month Salary"
+        android:textColor="@color/cbg"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_sal"
+        app:iconTint="@color/cbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <Button
+        android:id="@+id/btnem"
+        android:layout_width="382dp"
+        android:layout_height="77dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/norm"
+        android:text="Remove Employee"
+        android:textColor="@color/cbg"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFFFF"
+
+        app:icon="@drawable/ic_error"
+        app:iconTint="@color/cbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
+        app:rippleColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btatd"
+        android:layout_width="194dp"
+        android:layout_height="82dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/norm"
+        android:text="Attendance"
+        android:textColor="@color/cbg"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_atd"
+        app:iconTint="@color/cbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg"
+        android:focusedMonthDateColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
